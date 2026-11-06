@@ -1,0 +1,27 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Donnees locales et modeles
+qdrant_storage/
+minio_data/
+postgres_data/
+mlruns/
+models/
+*.safetensors
+
+# Systeme et editeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
